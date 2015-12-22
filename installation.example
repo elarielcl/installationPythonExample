@@ -1,3 +1,4 @@
+#https://docs.python.org/2/install/
 PREFIX=/home/sking32/tt
 
 #Esto crea la carpeta necesaria pero no puede instalar porque no esta seteada PYTHONPATH
