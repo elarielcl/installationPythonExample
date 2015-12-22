@@ -1,0 +1,8 @@
+PREFIX=/home/sking32/tt
+
+#Esto crea la carpeta necesaria pero no puede instalar porque no esta seteada PYTHONPATH
+sudo python setup.py install --prefix=$PREFIX 
+
+#Esto instala bien si la carpeta esta creada
+sudo PYTHONPATH=$PREFIX/lib/python2.7/site-packages/ python setup.py install --prefix=$PREFIX
+
