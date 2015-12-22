@@ -1,0 +1,4 @@
+#!/usr/bin/env python
+
+import prueba
+print prueba.test()

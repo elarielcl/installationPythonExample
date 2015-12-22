@@ -17,4 +17,5 @@ setup(name='prueba',
           'markdown',
       ],
       zip_safe=False,
-      test_suite='prueba.tests',)
+      test_suite='prueba.tests',
+      scripts=['bin/prueba-test'],)
