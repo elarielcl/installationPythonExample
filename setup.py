@@ -1,4 +1,10 @@
 from setuptools import setup
+import sys
+
+prefix='/usr/local'
+for arg in sys.argv :
+    if '--prefix' in arg :
+        prefix= arg[arg.find('=')+1:]
 
 def readme():
     with open('README.rst') as f:
