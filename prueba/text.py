@@ -1,2 +1,3 @@
+from markdown import markdown
 def test():
-	return "Esto es una prueba"
+	return markdown("Esto es una **prueba**")
