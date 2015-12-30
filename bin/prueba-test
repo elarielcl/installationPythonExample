@@ -2,3 +2,4 @@
 
 import prueba
 print prueba.test()
+print raw_input()
